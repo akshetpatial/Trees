@@ -134,8 +134,8 @@ public class BinarySearchTrees {
 
 
     public static void main(String[] args) {
-//        int[] numbers = {15,10,20,30,4,5,6,18,14,12}; int[] numbers = {15,10,20,5,12,8};
-        int[] numbers = {15,10,20,5,12};
+//        int[] numbers = {15,10,20,30,4,5,6,18,14,12}; int[] numbers = {15,10,20,5,12,8}; {15,10,20,5,12};
+        int[] numbers = {5,4,7,3};
 
         BinarySearchTrees binarySearchTrees = new BinarySearchTrees();
         binarySearchTrees.add(numbers);
