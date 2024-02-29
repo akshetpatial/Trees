@@ -31,10 +31,11 @@ public class Main {
 //        int element = scan.nextInt();
 //        binaryTrees.add(element);
 
-        int[] array = { 3,1,2,-1,-1,-1,-1};
+//        int[] array = { 3,1,2,-1,-1,-1,-1};
 //        int array[] = {3,-1, 1 ,2, -1, -1, -1};
 
 //        int array[] = {1,2, 3, -1, -1, -1,4,5,-1,-1,6,7,-1};
+        int array[] = {1,2, 3, 4,5, 6,7,8,9,10,-1,-1,-1,-1,-1};
 
         BinaryTrees.Node node =  binaryTrees.add(array);
 //            }
@@ -45,6 +46,8 @@ public class Main {
         binaryTrees.display();
 
         System.out.println("Enter 1 to find the height of the Tree: ");
+        System.out.println("Enter 2 Level Wise List of the Binary Tree: ");
+
         int cases=  scan.nextInt();
 
         switch(cases){
